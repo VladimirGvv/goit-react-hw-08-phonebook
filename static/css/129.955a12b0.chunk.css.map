@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/129.955a12b0.chunk.css","mappings":"AAAA,uBAEE,yBACA,kBACA,cAHA,iBAGA,CAEF,uBACE,UAAU","sources":["components/HomeLogIn/HomeLogIn.module.scss"],"sourcesContent":[".goTo {\n  text-align: center;\n  color: rgba(7, 7, 243, 0.626);\n  font-weight: 600px;\n  margin: 16px 0;\n}\n.span {\n  color:blue;\n}\n"],"names":[],"sourceRoot":""}
