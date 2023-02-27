@@ -3,11 +3,17 @@ import { NavLink } from 'react-router-dom';
 
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import { useAuth } from 'hooks';
+import { HomeLogIn } from 'components/HomeLogIn/HomeLogIn';
 
 export default function Home() {
+  const { isLoggedIn } = useAuth();
 
   return (
     <>
+      {isLoggedIn ? (
+        <HomeLogIn />
+      ) : (
         <Box
           sx={{
             minHeight: 'calc(100vh - 60px)',
@@ -43,6 +49,7 @@ export default function Home() {
             </Typography>
           </NavLink>
         </Box>
+      )}
     </>
   );
 }

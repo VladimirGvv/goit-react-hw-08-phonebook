@@ -42,7 +42,7 @@ export const LoginForm = () => {
           component="h3"
           sx={{
             fontWeight: '600',
-            color: 'rgb(0, 128, 255)',
+            color: 'rgba(7, 7, 243, 0.626)',
             marginBottom: '12px',
           }}
         >

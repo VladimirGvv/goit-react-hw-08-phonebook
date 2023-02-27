@@ -20,7 +20,7 @@ export const AppBarComponent = () => {
           justifyContent: 'space-between',
           height: '60px',
           padding: '0 30px',
-          backgroundColor: 'rgb(0, 128, 255)',
+          backgroundColor: 'rgba(7, 7, 243, 0.626)',
         }}
       >
         <Navigation />

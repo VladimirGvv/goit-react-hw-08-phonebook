@@ -4,8 +4,8 @@ import { Helmet } from 'react-helmet';
 
 import { fetchContacts } from 'redux/contacts/operations';
 import { selectIsLoading } from 'redux/contacts/selectors';
-import { PhoneForm } from 'components/PhoneForm/PhoneForm';
-import { ContactsList } from 'components/ContactsList/ContactsList';
+import { ContactForm } from 'components/ContactForm/ContactForm';
+import { ContactList } from 'components/ContactList/ContactList';
 import { Filter } from 'components/Filter/Filter';
 import { Loader } from 'components/Loader/Loader';
 
@@ -23,9 +23,9 @@ export default function Contacts() {
         <title>Your contacts</title>
       </Helmet>
       <div>{isLoading && <Loader />}</div>
-      <PhoneForm />
+      <ContactForm />
       <Filter />
-      <ContactsList />
+      <ContactList />
     </>
   );
 }
